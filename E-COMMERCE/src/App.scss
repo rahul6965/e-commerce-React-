@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.first-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  input[type="text"] {
+    border: 1.5px solid rgba(59, 183, 126, 0.431372549);
+    border-radius: 5px;
+    width: 25rem;
+    padding: 7px 13px;
+    font-size: 13px;
+  }
+  .header-search {
+    position: relative;
+    a {
+         position: absolute;
+    background: #3bb77e;
+    color: white;
+    text-decoration: none;
+    padding: 5px 7px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    right: 4px;
+    top: 3px;
+    }
+  }
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    .icon-1 {
+      span{
+        font-size: 14px;
+    color: grey;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+  
+      }
+        .wishlist-count{
+   position: absolute;
+    top: -11px;
+    left: 16px;
+    background: #3BB77E;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    }
+    }
+    .account-section {
+      cursor: pointer;
+    position: absolute;
+    top: 41px;
+    background: #3bb77e;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+    z-index: 999;
+}
+.hide-account{
+  display: none;
+
+}
+}
+
+.banner{
+  position: relative;
+  .banner-content {
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h3{
+          font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 43px;
+    color: #253D4E;;
+    }
+    p{
+          color: #7E7E7E;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 14px;
+
+    }
+    .banner-btn{
+input{
+      border: none;
+    padding: 13px 20px;
+    width: 19rem;
+    border-radius: 21px;
+    font-size: 14px;
+    }
+    button{
+ border: navajowhite;
+    padding: 13px 19px;
+    background: #3bb77e;
+    border-radius: 21px;
+    color: white;
+    position: relative;
+    left: -52px;
+    font-size: 14px;
+    outline: none;
+}
+    
+    } 
+}
+}
+
+
+.product-card {
+    background: white;
+    border: 1px solid #DEF9EC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .product-img {
+      position: relative;
+
+      .dis-coin{
+      position: absolute;
+    left: -2px;
+    top: 0px;
+    font-size: 12px;
+    background: #3BB77E;
+    padding: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 12px;
+    color: white;
+      }
+      .dis-title{
+        position: absolute;
+    top: 0;
+    right: 0;
+  font-size: 12px;
+    background: #67BCEE;
+    padding: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: -1px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 23px;
+    color: white;
+      }
+    }
+}
+
+.product-content{
+  padding: 0 10px 10px;
+
+  .cat-item{
+  padding-bottom: 5px;
+  }
+  span{
+        font-size: 12px;
+    color: #ADADAD;
+    font-weight: 400;
+    
+  }
+  .product-title{
+    text-decoration: none;
+    color: #253D4E;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 10px;
+
+  }
+  p{
+    color: #3BB77E;
+    font-size: 12px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .discount {
+    font-size: 11px;
+    color: #8080808c;
+    position: relative;
+    top: 1px;
+    left: 5px;
+    text-decoration: line-through;
+}
+
+.product-addtocart {
+  background: #DEF9EC;
+    padding: 4px;
+    border-radius: 4px;
+
+    p{
+      color: #3BB77E;
+      font-weight: 600;
+    }
+    span{
+      color: #3BB77E;
+      font-weight: 600;
+    }
+}
+}
+
+.category {
+    background: white;
+    border: 1px solid #DEF9EC;
+    // height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  .category-title {
+    h1{
+      font-size: 24px;
+      position: relative;
+    }
+    h1:after{
+      content : "";
+         content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 43px;
+    left: 0;
+    background: #BCE3C9;
+    }
+  }
+  .category-list {
+      padding: 11px;
+    border: 1px solid #d2e6dd;
+    border-radius: 10px;
+
+    p{
+      font-size: 14px;
+      display: flex;
+    align-items: center;
+    }
+    span{ 
+    background: #BCE3C9;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    }
+}
+}
+
+.product-tag{
+    background: white;
+    border: 1px solid #DEF9EC;
+
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+     .category-title {
+    h1{
+      font-size: 24px;
+      position: relative;
+    }
+    h1:after{
+      content : "";
+         content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 43px;
+    left: 0;
+    background: #BCE3C9;
+    }
+  }
+
+  .tag-item {
+    margin-bottom: 4px;
+    span{
+        background: white;
+    border: 1px solid #80808045;
+    border-radius: 14px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #3BB77E;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  }
+  svg{
+        color: grey;
+  }
+}
+}
+
+.product-cat{
+  h1{
+    font-size: 24px;
+  }
+  p{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.bottom-header{
+      padding: 5px;
+.header-content {
+  ul{
+    display: flex;
+    gap: 38px;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li{
+      list-style: none;
+      font-size: 14px;
+      svg{
+        color: #3bb77e;
+
+      }
+    }
+  }
+
+  .contact-div{
+    svg{
+    position: relative;
+    top: -3px;
+    }
+    p{
+    font-size: 21px;
+    color: #3BB77E;
+    }
+    span{
+      font-size: 12px;
+      color: grey;
+      position: relative;
+      top: -7px;
+    }
+  }
+}
+}
