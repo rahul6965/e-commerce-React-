@@ -18,13 +18,14 @@ export default function Bottomheader() {
                 </ul>
                 <div className="contact-div d-flex gap-2">
                     <div className="content-icon d-flex align-items-center">
-                        <MdOutlineHeadphones size={32} />
+                        <MdOutlineHeadphones size={35} />
                     </div>
                     <div className="content-number">
                         <p className="mb-0 d-flex align-items-center">1900888123</p>
                         <span>24/7 Support Center</span>
                     </div>
-                </div>
+                </div>git push -u origin main
+
             </div>
         </div>
      </div>
